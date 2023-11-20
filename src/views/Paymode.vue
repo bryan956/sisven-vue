@@ -11,7 +11,7 @@
     </thead>
     <tbody>       
         <tr>
-            <th v-for ="(Paymode, index)in paymodes" :key="index"></th>
+            <th v-for="(paymode, index)in paymodes" :key="index">
             <th scope="row">{{ index +1 }}</th>
             <td>{{ paymode.id }}</td>
             <td>{{ paymode.name }}</td>
